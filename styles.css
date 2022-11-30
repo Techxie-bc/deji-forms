@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+
+nav {
+  width: 100vw;
+  height: 119px;
+  background: #ffffff;
+  box-shadow: 0px 20px 24px rgba(17, 17, 17, 0.06);
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo h3,
+.admin h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 20px;
+  color: #000000;
+}
+.textContainer {
+  background-image: url("./Images/Rectangle\ 4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.textBody {
+  background-color: white;
+  text-align: center;
+  padding: 70px 50px;
+  gap: 67px;
+  width: 950px;
+  height: 477px;
+  background: #ffffff;
+  box-shadow: 0px 20px 24px rgba(17, 17, 17, 0.06);
+  border-radius: 10px;
+}
+.textTitle {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.textTitle h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+.textTitle p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #4f4f4f;
+}
+label {
+  font-family: "Inter";
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4f4f4f;
+}
+input {
+  padding: 7px 20px 7px 4px;
+  gap: 10px;
+  width: 400px;
+  height: 70px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  background: #e0e0e0;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.current {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.destination {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+button {
+  padding: 10px;
+  gap: 10px;
+  width: 400px;
+  height: 70px;
+  margin-top: 50px;
+  outline: none;
+  border: 1px solid #2d9cdb;
+  background: #2d9cdb;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* admin html */
+.textBodyAdmin {
+  padding: 70px 50px;
+  gap: 67px;
+  position: absolute;
+  width: 500px;
+  height: 868px;
+  background: #ffffff;
+  box-shadow: 0px 20px 24px rgba(17, 17, 17, 0.06);
+}
+.textFormAdmin form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.textContainerForm {
+  height: 1200px;
+  background-image: url("./Images/Rectangle\ 4\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.message textarea {
+  padding: 7px 20px 7px 4px;
+  gap: 10px;
+  width: 400px;
+  height: 200px;
+  outline: none;
+  background: #e0e0e0;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+}
+.name input,
+.email input,
+.message textarea {
+  margin-top: 10px;
+}
