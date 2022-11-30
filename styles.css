@@ -83,6 +83,17 @@ label {
   line-height: 19px;
   color: #4f4f4f;
 }
+select {
+  padding: 7px 20px 7px 4px;
+  gap: 10px;
+  width: 400px;
+  height: 70px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  background: #e0e0e0;
+  border-radius: 10px;
+}
+
 input {
   padding: 7px 20px 7px 4px;
   gap: 10px;
@@ -101,28 +112,19 @@ form {
   align-items: center;
   gap: 30px;
 }
-.current {
+.origin {
   display: flex;
   flex-direction: column;
   text-align: left;
-  position: relative;
 }
-.current i {
-  position: absolute;
-  top: 50%;
-  right: 4%;
-}
+
 .destination {
   display: flex;
   flex-direction: column;
   text-align: left;
   position: relative;
 }
-.destination i {
-  position: absolute;
-  top: 50%;
-  right: 4%;
-}
+
 button {
   padding: 10px;
   gap: 10px;
